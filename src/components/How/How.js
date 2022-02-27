@@ -4,13 +4,13 @@ import HowImg from '../../images/how.svg'
 import { Col, Row } from 'react-bootstrap'
 export default function How() {
   return (
-    <div>
+    <div className='howC'>
       <Row>
         <Col>
           <div>
             <img src={HowImg} alt="" />
           </div>
-          <div>
+          <div className='main'>
             <h2>How to earn interest on crypto</h2>
             <p>
               It’s simple. Once you open a Gemini account, you can purchase any amount of cryptocurrency and immediately transfer it to Gemini Earn to start earning interest on your holdings. Click here to calculate your interest.
@@ -19,7 +19,7 @@ export default function How() {
               Unlike other opportunities to earn interest on your crypto holdings, you can redeem and move your cryptocurrency back to your trading account (plus interest) at any time, with no minimums, and no transfer or redemption fees
             </p>
           </div>
-          <div>
+          <div className='main why-gemini'>
             <h2>Why choose Gemini?</h2>
             <p>Gemini is one of the safest cryptocurrency exchanges where you can buy, sell, store, and earn interest on bitcoin and other cryptocurrencies.</p>
           </div>
