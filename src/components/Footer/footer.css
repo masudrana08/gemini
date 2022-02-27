@@ -1,0 +1,13 @@
+.mobile, .desktop{
+  display: none;
+}
+@media only screen and (max-width:1023px){
+  .mobile{
+    display: block;
+  }
+}
+@media only screen and (min-width:1024px){
+  .desktop{
+    display: block;
+  }
+}
