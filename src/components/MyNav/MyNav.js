@@ -6,14 +6,20 @@ export default function MyNav() {
     <div>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <div>
+            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          </div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          <div>
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link className='' href="https://exchange.gemini.com/register?referral=67k9yz9se#">Sign in</Nav.Link>
+                <Nav.Link href="https://exchange.gemini.com/register?referral=67k9yz9se#">
+                  <button>Get Started</button>
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </div>
         </Container>
       </Navbar>
     </div>

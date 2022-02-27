@@ -4,7 +4,7 @@ import './header.css'
 import Mobile from '../../images/mobile.png'
 export default function Header() {
   return (
-    <div>
+    <div className='headerC'>
       <Row>
         <Col>
           <h1>Earn interest on crypto with Gemini Earn®</h1>
