@@ -5,7 +5,7 @@ import { Col, Row } from 'react-bootstrap'
 export default function How() {
   return (
     <div className='howC'>
-      <Row>
+      <Row className='top'>
         <Col>
           <div>
             <img src={HowImg} alt="" />
@@ -25,7 +25,7 @@ export default function How() {
           </div>
         </Col>
       </Row>
-      <Row>
+      <Row className='secondPart secondContent'>
         <Col>
           <div>
             <h3>Industry-leading security</h3>
@@ -40,14 +40,14 @@ export default function How() {
               <h4>Crypto Security</h4>
               <p>The majority of your crypto is held in our offline, air-gapped Cold Storage system. Only a small portion is held in our online Hot Wallet, which is insured against certain types of losses.</p>
             </div>
-            <div>
+            <div className='mt-4'>
               <h4>Account Security</h4>
               <p>Two-Factor Authentication (2FA) is required when you log in to your account or make crypto withdrawals.</p>
             </div>
           </div>
         </Col>
       </Row>
-      <Row>
+      <Row className='secondContent'>
         <Col>
           <div>
             <h3>Competitive features and rates</h3>
@@ -62,14 +62,14 @@ export default function How() {
               <h4>Redeem your assets at any time. No hidden fees.</h4>
               <p>Withdraw your assets instantly3. Gemini offers more flexibility than other high-yield cryptocurrency investments, with no minimums and no transfer or withdrawal fees.</p>
             </div>
-            <div>
+            <div className='mt-4'> 
               <h4>Available in every U.S. state, Singapore, and Hong Kong.</h4>
               <p>No other cryptocurrency exchange or financial institution offers the opportunity for users to earn interest on crypto in every U.S. state, including New York. Gemini Earn is also available in Singapore and Hong Kong.</p>
             </div>
           </div>
         </Col>
       </Row>
-      <Row>
+      <Row className='secondContent'>
         <Col>
           <div>
             <h3>Earn on stablecoins</h3>
@@ -84,7 +84,7 @@ export default function How() {
               <h4>Gemini dollar (GUSD)</h4>
               <p>Gemini dollar™ is a stablecoin redeemable at any time for $1 USD at Gemini, anytime.</p>
             </div>
-            <div>
+            <div className='mt-4'>
               <h4>Beat inflation</h4>
               <p>Gemini Earn allows users to outpace inflation rates by receiving returns through stablecoins.</p>
             </div>

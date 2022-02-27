@@ -1,6 +1,9 @@
 .howC{
   text-align: center;
   padding: 80px 0;
+  
+}
+.howC .top{
   width: 70%;
   margin: auto;
 }
@@ -8,4 +11,22 @@
 .why-gemini{
   padding: 60px 0;
   border-bottom: 1px solid lightgray;
+  margin-bottom: 60px
+}
+.howC .secondPart{
+  text-align: left;
+}
+.howC .secondPart p{
+  font-size: 1rem;
+}
+.secondContent{
+  width: 85%; 
+  margin: auto;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+  
+}
+.secondContent div{
+  padding: 0 10px;
 }

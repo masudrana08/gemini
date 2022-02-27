@@ -1,0 +1,22 @@
+.startedC{
+  text-align: center;
+}
+
+.startedC .top{
+  margin-bottom: 60px;
+}
+
+
+.startedC .secondPart.right div{
+  padding: 1rem;
+    box-shadow: rgb(26 26 26 / 10%) 0px 0px 40px;
+    border-radius: 8px;
+    margin: 15px 0px;
+}
+.startedC .inner{
+  width: 90%;
+  margin: auto;
+}
+.startedC img{
+  width: 90%;
+}

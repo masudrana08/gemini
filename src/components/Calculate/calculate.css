@@ -1,0 +1,13 @@
+.calculateC{
+  text-align: center;
+}
+
+.calculateC img{
+  padding-top: 60px;
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 20px;
+  border-radius: 10px;
+}
