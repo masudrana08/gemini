@@ -1,6 +1,77 @@
 .mobile, .desktop{
   display: none;
 }
+.footerC{
+  margin-top: 120px
+}
+.footerC .first{
+  text-align: center;
+  background-color: rgb(26, 28, 29);
+  color: white;
+  padding: 60px 0;
+}
+.footerC .first h2{
+  color: white;
+  font-weight: 700;
+}
+.footerC .first p{
+  margin: 25px 0;
+}
+.footerC .myBtn{
+  background-color: rgb(38, 221, 249);
+  color:rgb(26, 28, 29);
+  font-weight: bold;
+  padding: 20px 40px;
+  line-height: 1;
+  letter-spacing: 0.33px;
+  font-size: 1rem
+}
+
+
+.subscribeSection{
+  display: flex;
+  justify-content:center;
+  background-color: rgb(247, 247, 247);
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid lightgray;
+  column-gap: 15px;
+}
+.subscribeSection input{
+  border: none;
+  outline: none;
+  border: 1px solid black;
+  padding: 15px 30px;
+  background-color: rgb(247, 247, 247);
+  width: 20rem
+}
+
+.subscribeSection button{
+  padding: 17px 30px;
+  position: relative;
+  left: -40px;
+  border: 1px solid black;
+}
+
+.footerC .second{
+  background-color: rgb(247, 247, 247);
+}
+.footerC .second p{
+  height : 35px
+}
+a{
+  text-decoration: none;
+  color: rgb(1, 3, 4);
+  width: 100%;
+}
+
+
+
+.footerDesktop{
+  padding: 60px
+}
+
 @media only screen and (max-width:1023px){
   .mobile{
     display: block;

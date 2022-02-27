@@ -16,7 +16,11 @@ export default function MyNav() {
           <div>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto align-items-center">
-                <Nav.Link className='' href="https://exchange.gemini.com/register?referral=67k9yz9se#">Sign in</Nav.Link>
+                <div className='nav-sign'>
+                  <Nav.Link className='' href="https://exchange.gemini.com/register?referral=67k9yz9se#">Sign in</Nav.Link>
+                  <span className='und'></span>
+                </div>
+
                 <Nav.Link href="https://exchange.gemini.com/register?referral=67k9yz9se#">
                   <button>Get Started</button>
                 </Nav.Link>

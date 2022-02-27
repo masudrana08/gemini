@@ -5,3 +5,19 @@
   width: 127px;
   height: 28px
 }
+.navC button{
+  width: 140px;
+  padding: 10px 0;
+}
+
+.nav-sign{
+  width: 100px;
+}
+.nav-sign a{
+  color: black;
+  margin-left: -5px
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+  font-weight: 500;
+}

@@ -1,36 +1,43 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-
 export default function FooterDesktop() {
   return (
-    <div>
+    <div className='footerDesktop'>
       <Row>
         <Col>
           <div>
             <h4>Company</h4>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">About Us</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Blog</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Careers</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Students</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Security</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Trust and Safety</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Newsroom</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Video</a>
+              <span className="und"></span>
             </p>
           </div>
         </Col>
@@ -39,48 +46,63 @@ export default function FooterDesktop() {
             <h4>Products</h4>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Earn®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Credit Card®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini ActiveTrader®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini dollar®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Custody®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Clearing®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Pay®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Wallet</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Mobile</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Crypto</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Institutional Solutions</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Bitria by Gemini</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemeni Prime</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">View All</a>
+              <span className="und"></span>
             </p>
             
           </div>
@@ -89,13 +111,16 @@ export default function FooterDesktop() {
           <div>
             <h4>Initiatives</h4>
             <p>
-              <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Fronttier Fund</a>
+              <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Frontier Fund</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Opportunity Fund</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Gemini Green</a>
+              <span className="und"></span>
             </p>
           </div>
         </Col>
@@ -104,21 +129,27 @@ export default function FooterDesktop() {
             <h4>Partners</h4>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Samsung</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">TradingView</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Brave</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Nifty Gateway®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Affiliate Program</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">View All</a>
+              <span className="und"></span>
             </p>
           </div>
         </Col>
@@ -127,15 +158,19 @@ export default function FooterDesktop() {
             <h4>Support</h4>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Help Center</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Contact us</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">System Status</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Areas of Availability</a>
+              <span className="und"></span>
             </p>
           </div>
         </Col>
@@ -144,27 +179,35 @@ export default function FooterDesktop() {
             <h4>Resources</h4>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Prices</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Cryptopedia®</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">API Docs</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Refer a Friend</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Auction Data</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Marketplace & Fees</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Legal Agreements</a>
+              <span className="und"></span>
             </p>
             <p>
               <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Privacy Policy</a>
+              <span className="und"></span>
             </p>
           </div>
         </Col>

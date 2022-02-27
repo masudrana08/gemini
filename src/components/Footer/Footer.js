@@ -4,16 +4,23 @@ import FooterDesktop from './FooterDesktop'
 import FooterMobile from './FooterMobile'
 export default function Footer() {
   return (
-    <div>
-      <div>
+    <div className='footerC'>
+      <div className='first'>
         <h2>The most trusted crypto-native finance platform</h2>
         <p>Create a free Gemini account in minutes</p>
-        <button>Get Started</button>
+        <button className='myBtn'>Get Started</button>
       </div>
-      <div className="mobile">
+      <div className='subscribeSection'>
+        <h4>Stay up to date</h4>
+        <div>
+          <input type="text" placeholder='Email Address'/>
+          <button>Subscribe</button>
+        </div>
+      </div>
+      <div className="mobile second">
         <FooterMobile />
       </div>
-      <div className="desktop">
+      <div className="desktop second">
         <FooterDesktop />
       </div>
     </div>

@@ -66,7 +66,7 @@ export default function Faq() {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <div>
+        <div className='secondPart'>
           <h4>See all Earn FAQs</h4>
           <li className="small">
             APY may vary based on coin type 1.25% - 8.05%. Depending on availability. Gemini Earn is a lending program through which you may choose to lend your cryptocurrency to certain institutional borrowers. Gemini, as your custodian and agent, will offer you lending opportunities when, and if, available. While we expect sufficient borrower capacity for all interested Gemini customers, we cannot guarantee demand for particular cryptocurrencies or at particular rates. This content is for general informational purposes only and is not investment advice. Buying, selling, and trading cryptocurrency involves risk. You should consult a qualified, licensed advisor before engaging in any transaction. Past performance is not a guarantee of future results.
