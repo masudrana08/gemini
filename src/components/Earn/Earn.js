@@ -7,12 +7,12 @@ import Network from '../../images/network.svg'
 import Award from '../../images/award.webp'
 export default function Earn() {
   return (
-    <div>
+    <div className='earnC'>
       <div>
         <h2>How Earn Works</h2>
         <p>Buy, sell, store, spend, and earn cryptocurrency all through one platform.</p>
       </div>
-      <Row>
+      <Row className='secondPart'>
         <Col>
           <div>
             <img src={Dollar} alt="" />
@@ -32,17 +32,17 @@ export default function Earn() {
           </div>
         </Col>
       </Row>
-      <div>
-        <div>
+      <Row className='thirdPart'>
+        <Col md={2} className='p-0'>
           <img src={Award} alt="" />
-        </div>
-        <div>
+        </Col>
+        <Col md={5} className='earnRight'>
           <h4>We are proud to have been awarded The Ascent’s Best-Of 2022:</h4>
           <li>Best Cryptocurrency Exchange Overall</li>
           <li>Best Cryptocurrency App for Earning Interest</li>
           <li>Best Cryptocurrency App for Beginners</li>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </div>
   )
 }
