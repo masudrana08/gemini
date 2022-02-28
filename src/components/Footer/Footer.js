@@ -54,15 +54,25 @@ export default function Footer() {
       </div>
       <Row className="footer-foot m-0">
         <Col xs={12} md={4} className='a'>
-          <p>© Copyright 2022 Gemini Trust Company, LLC.</p>
+          <p>
+            <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">© Copyright 2022 Gemini Trust Company, LLC.</a>
+          </p>
         </Col>
 
         <Col xs={12} md={4} className='b'>
-          <p>NMLS #1518126</p>
-          <p>Legal Notice</p>
+          <p>
+            <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">NMLS #1518126</a>
+          </p>
+          <p>
+            <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">Legal Notice</a>
+          </p>
+         
         </Col>
         <Col xs={12} md={4} className='c'>
-          <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+          <p>
+            <a href="https://exchange.gemini.com/register?referral=67k9yz9se#">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</a>
+          </p>
+          
         </Col>
       </Row>
     </div>
