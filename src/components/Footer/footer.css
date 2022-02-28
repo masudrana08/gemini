@@ -107,14 +107,16 @@ a{
 
 .footer-foot{
   background-color: rgb(247, 247, 247);
-  display: flex;
-  justify-content: space-between;
   border-top: 1px solid lightgray;
   padding: 30px;
   
 }
 .footer-foot p{
   font-size: 12px;
+}
+.footer-foot div{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -140,6 +142,34 @@ a{
      position:static;
      margin-top: 10px;
      padding: 5px 0;
+  }
+  .footerLast{
+    flex-direction: column;
+    padding-top: 60px
+  }
+  .footerLast .right{
+    flex-direction: column;
+    display: flex;
+    row-gap: 5px;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+    margin-top: 10px
+  }
+  .footer-foot div{
+    margin-top: 15px;
+    display: block;
+  }
+  .footer-foot .a, .footer-foot .c{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer-foot p{
+    text-align: center;
+  }
+  .footer-foot .b{
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media only screen and (max-width:1023px){
