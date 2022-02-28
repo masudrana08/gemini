@@ -69,8 +69,54 @@ a{
 
 
 .footerDesktop{
-  padding: 60px
+  padding: 60px 60px 0 60px
 }
+
+
+.footerLast{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 30px;
+}
+.footerLast .left{
+  display: flex;
+}
+.footerLast .left div{
+  background-color: black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.footerLast svg{
+  font-size: 20px;
+  color: white;
+}
+.footerLast img{
+  height:40px;
+  width: auto; 
+  margin-right: 10px;
+}
+
+.footer-foot{
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  padding: 30px;
+  
+}
+.footer-foot p{
+  font-size: 12px;
+}
+
 
 @media only screen  and (max-width: 991px){
   .footerC h2{
