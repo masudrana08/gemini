@@ -12,20 +12,17 @@ export default function MyNav() {
               <img src={Logo} alt="logo" />
             </Navbar.Brand>
           </div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <div>
-            <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto align-items-center">
-                <div className='nav-sign'>
+                <div className='nav-sign m-none'>
                   <Nav.Link className='' href="https://exchange.gemini.com/register?referral=67k9yz9se#">Sign in</Nav.Link>
                   <span className='und'></span>
                 </div>
 
                 <Nav.Link href="https://exchange.gemini.com/register?referral=67k9yz9se#">
-                  <button>Get Started</button>
+                  <button className='mybtn'>Get Started</button>
                 </Nav.Link>
               </Nav>
-            </Navbar.Collapse>
           </div>
         </Container>
       </Navbar>

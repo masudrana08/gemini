@@ -9,8 +9,10 @@ export default function Header() {
           <Col className='left' md={6}>
             <h1>Earn interest on crypto with Gemini Earn®</h1>
             <p>Put your crypto to work. With Gemini Earn, you can receive up to 8.05% APY on your cryptocurrency, including stablecoins.¹</p>
-            <button>Start Earning</button>
-            <button className='outline'>Calculate your earnings</button>
+           <div className='btnContainer'>
+              <button>Start Earning</button>
+              <button className='outline'>Calculate your earnings</button>
+           </div>
           </Col>
           <Col md={6} className='right'>
             <img src={Mobile} alt="" />

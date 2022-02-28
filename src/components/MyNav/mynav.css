@@ -5,7 +5,7 @@
   width: 127px;
   height: 28px
 }
-.navC button{
+.navC .mybtn{
   width: 140px;
   padding: 10px 0;
 }
@@ -20,4 +20,13 @@
 .navbar-light .navbar-nav .nav-link{
   color: black;
   font-weight: 500;
+}
+
+@media only screen  and (max-width: 991px){
+  
+  .navC .mybtn{
+    width: 100px;
+    padding: 7px 0;
+  }
+
 }

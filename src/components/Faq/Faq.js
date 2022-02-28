@@ -6,7 +6,7 @@ export default function Faq() {
     <div className='faqC'>
       <h2 className='title'>Frequently asked questions</h2>
       <div>
-        <Accordion defaultActiveKey="0">
+        <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>What is Gemini Earn?</Accordion.Header>
             <Accordion.Body>

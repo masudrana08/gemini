@@ -4,7 +4,7 @@ import { Accordion } from 'react-bootstrap'
 export default function FooterMobile() {
   return (
     <div>
-      <Accordion defaultActiveKey="0">
+      <Accordion >
         <Accordion.Item eventKey="0">
           <Accordion.Header>Company</Accordion.Header>
           <Accordion.Body>
