@@ -19,6 +19,10 @@
 .faqC .secondPart li{
   list-style-type: number;
 }
+
+.faqC a{
+  text-decoration: underline;
+}
 @media only screen  and (max-width: 991px){
   .faqC h2{
     margin: 0
