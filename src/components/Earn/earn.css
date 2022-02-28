@@ -8,6 +8,10 @@
   margin-top: 30px;
   margin-bottom: 60px
 }
+.earnC .secondPart img{
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
 .earnC .secondPart div{
   padding: 0 20px
 }
@@ -20,11 +24,19 @@
 }
 .earnC .thirdPart img{
   width: 100%;
-  padding: 0
+  padding: 0;
+  
 }
+
 .earnRight{
   background: rgb(247, 247, 247);
   padding: 30px;
   border-radius: 0 15px 15px 0;
 }
 
+@media only screen  and (max-width: 991px){
+  .earnC .thirdPart img{
+    margin-bottom: 60px;
+  }
+  
+}

@@ -124,8 +124,12 @@ a{
   .footerC h2{
     margin: 0;
   }
+  .footerC .first div{
+    width: 80%;
+    margin: auto
+  }
   .footerC p{
-    text-align: left;
+    color: white
   }
   .subscribeSection{
     flex-direction: column;

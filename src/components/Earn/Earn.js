@@ -33,7 +33,7 @@ export default function Earn() {
         </Col>
       </Row>
       <Row className='thirdPart'>
-        <Col xs={10} md={2} className='p-0'>
+        <Col xs={8} md={2} className='p-0'>
           <img src={Award} alt="" />
         </Col>
         <Col xs={10} md={5} className='earnRight'>

@@ -12,9 +12,11 @@ export default function Footer() {
   return (
     <div className='footerC'>
       <div className='first'>
-        <h2>The most trusted crypto-native finance platform</h2>
-        <p>Create a free Gemini account in minutes</p>
-        <button className='myBtn'>Get Started</button>
+        <div>
+          <h2>The most trusted crypto-native finance platform</h2>
+          <p>Create a free Gemini account in minutes</p>
+          <button className='myBtn'>Get Started</button>
+        </div>
       </div>
       <div className='subscribeSection'>
         <h4>Stay up to date</h4>

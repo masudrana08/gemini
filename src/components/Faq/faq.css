@@ -19,3 +19,15 @@
 .faqC .secondPart li{
   list-style-type: number;
 }
+@media only screen  and (max-width: 991px){
+  .faqC h2{
+    margin: 0
+  }
+  .faqC .accordion-item{
+    margin-bottom: 10px;
+  }
+  .faqC p{
+    text-align: left;
+  }
+}
+  
