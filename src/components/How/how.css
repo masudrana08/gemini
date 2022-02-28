@@ -31,3 +31,15 @@
 .secondContent div{
   padding: 0 10px;
 }
+
+@media only screen  and (max-width: 991px){
+  .howC .top{
+    width: 80%;
+  }
+  .secondContent{
+    width: 80%;
+  }
+  .secondContent p{
+    text-align: left;
+  }
+}

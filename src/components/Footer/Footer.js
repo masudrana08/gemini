@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div className='subscribeSection'>
         <h4>Stay up to date</h4>
-        <div>
+        <div className='subBtns'>
           <input type="text" placeholder='Email Address'/>
           <button>Subscribe</button>
         </div>

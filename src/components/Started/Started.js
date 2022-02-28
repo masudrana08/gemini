@@ -11,12 +11,12 @@ export default function Started() {
             <p>Signing up is fast, easy, and secure.</p>
           </div>
         <Row>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <img src={StartedImg} alt="" />
           </div>
         </Col>
-        <Col className='secondPart right'>
+        <Col xs={12} md={6} className='secondPart right'>
           <div>
             <p>Download the Gemini Mobile App or log into the Gemini Exchange in your web browser. Click the “Earn” tab.</p>
           </div>

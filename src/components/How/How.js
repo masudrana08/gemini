@@ -6,7 +6,7 @@ export default function How() {
   return (
     <div className='howC'>
       <Row className='top'>
-        <Col>
+        <Col >
           <div>
             <img src={HowImg} alt="" />
           </div>
@@ -26,7 +26,7 @@ export default function How() {
         </Col>
       </Row>
       <Row className='secondPart secondContent'>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <h3>Industry-leading security</h3>
             <p>Gemini is a New York trust company regulated by the New York State Department of Financial Services (NYSDFS). We are subject to the capital reserve requirements, cybersecurity requirements, and banking compliance standards set forth by the NYSDFS and the New York Banking Law—on par with traditional financial institutions.
@@ -34,7 +34,7 @@ export default function How() {
           </div>
 
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <div>
               <h4>Crypto Security</h4>
@@ -48,7 +48,7 @@ export default function How() {
         </Col>
       </Row>
       <Row className='secondContent'>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <h3>Competitive features and rates</h3>
             <p>Interest compounds daily. Deposit and receive more than 110x the average national interest rate2, with high-yield crypto returns.
@@ -56,7 +56,7 @@ export default function How() {
           </div>
 
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <div>
               <h4>Redeem your assets at any time. No hidden fees.</h4>
@@ -70,7 +70,7 @@ export default function How() {
         </Col>
       </Row>
       <Row className='secondContent'>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <h3>Earn on stablecoins</h3>
             <p>Stablecoins are digital assets that are tied to traditional fiat currencies and are designed to minimize crypto price volatility, while maintaining the mobility and utility of cryptocurrency. Gemini Earn supports stablecoins like Gemini dollar (GUSD) and Dai.4
@@ -78,7 +78,7 @@ export default function How() {
           </div>
 
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <div>
             <div>
               <h4>Gemini dollar (GUSD)</h4>

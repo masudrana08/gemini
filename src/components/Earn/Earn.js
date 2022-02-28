@@ -33,10 +33,10 @@ export default function Earn() {
         </Col>
       </Row>
       <Row className='thirdPart'>
-        <Col md={2} className='p-0'>
+        <Col xs={10} md={2} className='p-0'>
           <img src={Award} alt="" />
         </Col>
-        <Col md={5} className='earnRight'>
+        <Col xs={10} md={5} className='earnRight'>
           <h4>We are proud to have been awarded The Ascent’s Best-Of 2022:</h4>
           <li>Best Cryptocurrency Exchange Overall</li>
           <li>Best Cryptocurrency App for Earning Interest</li>

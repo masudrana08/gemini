@@ -72,6 +72,30 @@ a{
   padding: 60px
 }
 
+@media only screen  and (max-width: 991px){
+  .footerC h2{
+    margin: 0;
+  }
+  .footerC p{
+    text-align: left;
+  }
+  .subscribeSection{
+    flex-direction: column;
+  }
+  .subBtns{
+    display: flex;
+    flex-direction: column;
+  }
+  .subBtns input{
+    width: 20rem;
+    border-radius: 50px;
+  }
+  .subBtns button{
+     position:static;
+     margin-top: 10px;
+     padding: 5px 0;
+  }
+}
 @media only screen and (max-width:1023px){
   .mobile{
     display: block;
